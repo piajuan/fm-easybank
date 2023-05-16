@@ -15,7 +15,8 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
     "daisyui": "^2.51.6",
-    "jquery": "^3.7.0"
+    "jquery": "^3.7.0",
+    "scrollreveal": "^4.0.9"
   },
   "scripts": {
     "build": "webpack",

@@ -542,6 +542,14 @@ i {
   color: inherit;
 }
 
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
+body {
+  overflow: overlay;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -1502,6 +1510,10 @@ i {
 
 .text-center {
   text-align: center;
+}
+
+.font-primary {
+  font-family: Public Sans-Regular, sans-serif;
 }
 
 .font-tertiary {

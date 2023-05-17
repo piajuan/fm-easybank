@@ -16,8 +16,20 @@ function toggleMobileMenu() {
 }
 
 function activateScrollReveal() {
+  var slideUp = {
+    origin: "top",
+    distance: "-40px",
+    duration: 1200,
+    delay: 100,
+  };
+
   window.sr = ScrollReveal();
-  window.sr.reveal(".sr-animate");
+  window.sr.reveal(".animate-fade-in", { duration: 2000 });
+  window.sr.reveal(".animate-slide-up", slideUp);
+  window.sr.reveal(".animate-delay-200", { delay: 200 });
+  window.sr.reveal(".animate-delay-300", { delay: 300 });
+  window.sr.reveal(".animate-delay-400", { delay: 400 });
+  window.sr.reveal(".animate-delay-500", { delay: 500 });
 }
 
 toggleMobileMenu();

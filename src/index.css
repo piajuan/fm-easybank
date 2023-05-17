@@ -58,6 +58,14 @@
   .bg-primary-gradient {
     @apply bg-gradient-to-r from-secondary to-accent;
   }
+
+  html.sr .load-hidden {
+    visibility: hidden;
+  }
+
+  body {
+    overflow: overlay;
+  }
 }
 
 @layer components {

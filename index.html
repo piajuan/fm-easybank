@@ -8,6 +8,13 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
     <title>EasyBank Landing Page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/img/favicon-32x32.png"
+    />
+
     <link rel="stylesheet" href="./dist/assets/css/style.css" />
     <link
       rel="stylesheet"
@@ -25,7 +32,7 @@
           <ul class="flex gap-3">
             <li>
               <a
-                class="block px-3 py-5 relative after:content[''] after:absolute after:block after:bottom-0 after:left-0 after:h-1 after:w-0 after:bg-primary-gradient after:transition-all after:duration-150 after: hover:text-primary hover:after:w-full"
+                class="block px-3 py-5 relative font-primary text-primary after:content[''] after:absolute after:block after:bottom-0 after:left-0 after:h-1 after:w-0 after:bg-primary-gradient after:transition-all after:duration-150 after: hover:text-primary hover:after:w-full"
                 href=""
                 >Home</a
               >
@@ -88,16 +95,20 @@
             class="flex flex-col gap-6 content-center items-start lg:h-100 lg:w-1/2 xl:w-2/5"
           >
             <h1
-              class="text-4xl md:text-5xl text-center mx-auto lg:text-left lg:mx-0 sr-animate"
+              class="text-4xl md:text-5xl text-center mx-auto lg:text-left lg:mx-0 load-hidden animate-fade-in"
             >
               Next generation digital banking
             </h1>
-            <p class="text-center lg:text-left lg:w-4/5">
+            <p
+              class="text-center lg:text-left lg:w-4/5 load-hidden animate-fade-in animate-delay-200"
+            >
               Take your financial life online. Your Easybank account will be a
               one-stop-shop for spending, saving, budgeting, investing, and much
               more.
             </p>
-            <a href="#" class="ds-btn ds-btn-primary mx-auto lg:mx-0"
+            <a
+              href="#"
+              class="ds-btn ds-btn-primary mx-auto lg:mx-0 load-hidden animate-fade-in animate-delay-300"
               >Request Invite</a
             >
           </div>
@@ -107,25 +118,25 @@
             class="relative overflow-hidden h-[50vh] md:h-[60vh] lg:static lg:h-auto"
           >
             <div
-              class="absolute grid grid-cols-3 grid-rows-4 gap-5 bottom-0 lg:w-1/2 lg:right-0 lg:bottom-[unset] lg:top-2/4 lg:translate-y-[-40%] lg:translate-x-[7vw] lg:scale-60 xl:max-w-3/5 xl:grid-cols-[repeat(auto-fit,_minmax(150px,1fr))] xl:scale-70"
+              class="absolute grid grid-cols-3 grid-rows-4 gap-5 bottom-0 lg:w-1/2 lg:right-0 lg:bottom-[unset] lg:top-2/4 lg:translate-y-[-40%] lg:translate-x-[7vw] lg:scale-60 xl:max-w-3/5 xl:grid-cols-[repeat(auto-fit,_minmax(150px,1fr))]"
             >
               <img
-                class="w-[300px] object-contain row-start-2 row-span-2 sr-animate-bottom"
+                class="w-[300px] object-contain row-start-2 row-span-2 load-hidden animate-slide-up"
                 src="./src/img/phone-mockup-1.png"
                 alt=""
               />
               <img
-                class="w-[300px] object-contain col-start-2 row-span-2"
+                class="w-[300px] object-contain col-start-2 row-span-2 load-hidden animate-slide-up animate-delay-200"
                 src="./src/img/phone-mockup-2.png"
                 alt=""
               />
               <img
-                class="w-[300px] object-contain row-start-3 row-span-2 col-start-2"
+                class="w-[300px] object-contain row-start-3 row-span-2 load-hidden animate-slide-up animate-delay-300"
                 src="./src/img/phone-mockup-3.png"
                 alt=""
               />
               <img
-                class="w-[300px] object-contain row-start-2 row-span-2"
+                class="w-[300px] object-contain row-start-2 row-span-2 load-hidden animate-slide-up animate-delay-400"
                 src="./src/img/phone-mockup-4.png"
                 alt=""
               />
@@ -137,7 +148,9 @@
       <!-- Why -->
       <section class="bg-base-200 py-[3em] px-[2em] md:py-[4em] lg:p-[5em]">
         <div class="container max-w-screen-xl mx-auto">
-          <div class="max-w-screen-sm">
+          <div
+            class="max-w-screen-sm load-hidden animate-fade-in animate-delay-200"
+          >
             <h2
               class="w-80 mx-auto mb-4 text-3xl text-center md:w-full md:text-4xl lg:text-left lg:ml-0"
             >
@@ -151,7 +164,7 @@
 
           <div class="flex flex-wrap mt-10 md:mt-20">
             <div
-              class="flex flex-col items-center gap-5 p-5 w-full md:p-3 md:w-1/2 lg:w-1/4 lg:items-start"
+              class="flex flex-col items-center gap-5 p-5 w-full md:p-3 md:w-1/2 lg:w-1/4 lg:items-start load-hidden animate-slide-up"
             >
               <img
                 class="aspect-square object-contain w-16"
@@ -170,7 +183,7 @@
             </div>
 
             <div
-              class="flex flex-col items-center gap-5 p-5 w-full md:p-3 md:w-1/2 lg:w-1/4 lg:items-start"
+              class="flex flex-col items-center gap-5 p-5 w-full md:p-3 md:w-1/2 lg:w-1/4 lg:items-start load-hidden animate-slide-up animate-delay-200"
             >
               <img
                 class="aspect-square object-contain w-16"
@@ -189,7 +202,7 @@
             </div>
 
             <div
-              class="flex flex-col items-center gap-5 p-5 w-full md:p-3 md:w-1/2 lg:w-1/4 lg:items-start"
+              class="flex flex-col items-center gap-5 p-5 w-full md:p-3 md:w-1/2 lg:w-1/4 lg:items-start load-hidden animate-slide-up animate-delay-300"
             >
               <img
                 class="aspect-square object-contain w-16"
@@ -208,7 +221,7 @@
             </div>
 
             <div
-              class="flex flex-col items-center gap-5 p-5 w-full md:p-3 md:w-1/2 lg:w-1/4 lg:items-start"
+              class="flex flex-col items-center gap-5 p-5 w-full md:p-3 md:w-1/2 lg:w-1/4 lg:items-start load-hidden animate-slide-up animate-delay-400"
             >
               <img
                 class="aspect-square object-contain w-16"
@@ -233,7 +246,7 @@
       <section class="bg-base-100 py-[4em] px-[2em] lg:p-[5em]">
         <div class="container max-w-screen-xl mx-auto">
           <h2
-            class="mx-auto mb-2 text-3xl text-center md:text-4xl lg:text-left lg:mx-0"
+            class="mx-auto mb-2 text-3xl text-center md:text-4xl lg:text-left lg:mx-0 load-hidden animate-fade-in"
           >
             Latest Articles
           </h2>
@@ -244,7 +257,7 @@
           >
             <!-- card -->
             <div
-              class="group bg-white rounded-md overflow-hidden cursor-pointer hover:drop-shadow-sm"
+              class="group bg-white rounded-md overflow-hidden cursor-pointer hover:drop-shadow-sm load-hidden animate-slide-up animate-delay-200"
             >
               <img
                 class="object-cover w-full h-[250px] transition-transform duration-600 group-hover:scale-105"
@@ -265,7 +278,7 @@
 
             <!-- card -->
             <div
-              class="group bg-white rounded-md overflow-hidden cursor-pointer hover:drop-shadow-sm"
+              class="group bg-white rounded-md overflow-hidden cursor-pointer hover:drop-shadow-sm load-hidden animate-slide-up animate-delay-300"
             >
               <img
                 class="object-cover w-full h-[250px] transition-transform duration-600 group-hover:scale-105"
@@ -286,7 +299,7 @@
 
             <!-- card -->
             <div
-              class="group bg-white rounded-md overflow-hidden cursor-pointer hover:drop-shadow-sm"
+              class="group bg-white rounded-md overflow-hidden cursor-pointer hover:drop-shadow-sm load-hidden animate-slide-up animate-delay-400"
             >
               <img
                 class="object-cover w-full h-[250px] transition-transform duration-600 group-hover:scale-105"
@@ -307,7 +320,7 @@
 
             <!-- card -->
             <div
-              class="group bg-white rounded-md overflow-hidden cursor-pointer hover:drop-shadow-sm"
+              class="group bg-white rounded-md overflow-hidden cursor-pointer hover:drop-shadow-sm load-hidden animate-slide-up animate-delay-500"
             >
               <img
                 class="object-cover w-full h-[250px] transition-transform duration-600 group-hover:scale-105"

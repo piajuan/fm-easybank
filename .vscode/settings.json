@@ -6,5 +6,5 @@
       "savePath": "/dist/assets/css"
     }
   ],
-  "liveSassCompile.settings.excludeList": ["**/fonts/**", ".vscode/**"]
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"]
 }

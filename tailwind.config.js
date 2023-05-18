@@ -47,6 +47,10 @@ module.exports = {
         secondary: ["Public Sans-Light", "sans-serif"],
         tertiary: ["Public Sans-SemiBold", "sans-serif"],
       },
+      backgroundImage: {
+        "hero-mobile": "url('../../../src/img/bg-intro-mobile.svg')",
+        "hero-desktop": "url('../../../src/img/bg-intro-desktop.svg')",
+      },
     },
   },
   plugins: [require("daisyui")],

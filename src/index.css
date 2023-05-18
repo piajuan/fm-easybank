@@ -4,8 +4,8 @@
 
 @font-face {
   font-family: "Public Sans-SemiBold";
-  src: url("../../../src/fonts/PublicSans-SemiBold.woff2") format("woff2"),
-    url("../../../src/fonts/PublicSans-SemiBold.woff") format("woff");
+  src: url("./src/fonts/PublicSans-SemiBold.woff2") format("woff2"),
+    url("./src/fonts/PublicSans-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -13,8 +13,8 @@
 
 @font-face {
   font-family: "Public Sans-Regular";
-  src: url("../../../src/fonts/PublicSans-Regular.woff2") format("woff2"),
-    url("../../../src/fonts/PublicSans-Regular.woff") format("woff");
+  src: url("./src/fonts/PublicSans-Regular.woff2") format("woff2"),
+    url("./src/fonts/PublicSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -22,8 +22,8 @@
 
 @font-face {
   font-family: "Public Sans-Light";
-  src: url("../../../src/fonts/PublicSans-Light.woff2") format("woff2"),
-    url("../../../src/fonts/PublicSans-Light.woff") format("woff");
+  src: url("./src/fonts/PublicSans-Light.woff2") format("woff2"),
+    url("./src/fonts/PublicSans-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -60,7 +60,7 @@
   }
 
   html.sr .load-hidden {
-    visibility: hidden;
+    @apply invisible;
   }
 
   body {

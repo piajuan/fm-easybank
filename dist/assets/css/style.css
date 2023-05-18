@@ -1445,8 +1445,8 @@ body {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/src\/img\/bg-intro-mobile\.svg\'\)\] {
-  background-image: url('/src/img/bg-intro-mobile.svg');
+.bg-hero-mobile {
+  background-image: url('../../../src/img/bg-intro-mobile.svg');
 }
 
 .bg-cover {
@@ -1577,8 +1577,8 @@ body {
 @font-face {
   font-family: "Public Sans-SemiBold";
 
-  src: url("../../../src/fonts/PublicSans-SemiBold.woff2") format("woff2"),
-    url("../../../src/fonts/PublicSans-SemiBold.woff") format("woff");
+  src: url("./src/fonts/PublicSans-SemiBold.woff2") format("woff2"),
+    url("./src/fonts/PublicSans-SemiBold.woff") format("woff");
 
   font-weight: 600;
 
@@ -1590,8 +1590,8 @@ body {
 @font-face {
   font-family: "Public Sans-Regular";
 
-  src: url("../../../src/fonts/PublicSans-Regular.woff2") format("woff2"),
-    url("../../../src/fonts/PublicSans-Regular.woff") format("woff");
+  src: url("./src/fonts/PublicSans-Regular.woff2") format("woff2"),
+    url("./src/fonts/PublicSans-Regular.woff") format("woff");
 
   font-weight: normal;
 
@@ -1603,8 +1603,8 @@ body {
 @font-face {
   font-family: "Public Sans-Light";
 
-  src: url("../../../src/fonts/PublicSans-Light.woff2") format("woff2"),
-    url("../../../src/fonts/PublicSans-Light.woff") format("woff");
+  src: url("./src/fonts/PublicSans-Light.woff2") format("woff2"),
+    url("./src/fonts/PublicSans-Light.woff") format("woff");
 
   font-weight: 300;
 
@@ -1869,8 +1869,8 @@ body {
     gap: 1.25rem;
   }
 
-  .lg\:bg-\[url\(\'\/src\/img\/bg-intro-desktop\.png\'\)\] {
-    background-image: url('/src/img/bg-intro-desktop.png');
+  .lg\:bg-hero-desktop {
+    background-image: url('../../../src/img/bg-intro-desktop.svg');
   }
 
   .lg\:bg-\[40vw_-28vh\] {

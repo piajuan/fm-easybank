@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+      content="width=device-width, initial-scale=1.0"
     />
     <title>EasyBank Landing Page</title>
     <link
@@ -30,7 +30,7 @@
         class="container max-w-screen-xl mx-auto flex justify-between items-center p-5 lg:py-0"
       >
         <img class="h-[25px]" src="./src/img/logo.svg" alt="brand logo" />
-        <nav class="hidden lg:block">
+        <nav class="hidden lg:block" aria-labelledby="header-nav-desktop">
           <ul class="flex gap-3">
             <li>
               <a
@@ -76,11 +76,11 @@
         </div>
 
         <!-- burger icon on mobile -->
-        <div class="nav__icon lg:hidden">
+        <nav class="nav__icon lg:hidden" aria-labelledby="header-nav-mobile">
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </nav>
       </div>
     </header>
 
@@ -268,9 +268,9 @@
               />
               <div class="flex flex-col gap-3 p-5 md:px-5 md:py-7">
                 <span class="text-xs">By Claire Robinson</span>
-                <h4 class="text-lg leading-6 group-hover:text-secondary">
+                <h3 class="text-lg leading-6 group-hover:text-secondary">
                   Receive money in any currency with no fees
-                </h4>
+                </h3>
                 <p>
                   The world is getting smaller and we’re becoming more mobile.
                   So why should you be forced to only receive money in a single
@@ -289,9 +289,9 @@
               />
               <div class="flex flex-col gap-3 p-5 md:px-5 md:py-7">
                 <span class="text-xs">By Wilson Hutton</span>
-                <h4 class="text-lg leading-6 group-hover:text-secondary">
+                <h3 class="text-lg leading-6 group-hover:text-secondary">
                   Treat yourself without worrying about money
-                </h4>
+                </h3>
                 <p>
                   Our simple budgeting feature allows you to separate out your
                   spending and set realistic limits each month. That means you
@@ -310,9 +310,9 @@
               />
               <div class="flex flex-col gap-3 p-5 md:px-5 md:py-7">
                 <span class="text-xs">By Wilson Hutton</span>
-                <h4 class="text-lg leading-6 group-hover:text-secondary">
+                <h3 class="text-lg leading-6 group-hover:text-secondary">
                   Take your Easybank card wherever you go
-                </h4>
+                </h3>
                 <p>
                   We want you to enjoy your travels. This is why we don’t charge
                   any fees on purchases while you’re abroad. We’ll even show you
@@ -331,9 +331,9 @@
               />
               <div class="flex flex-col gap-3 p-5 md:px-5 md:py-7">
                 <span class="text-xs">By Wilson Hutton</span>
-                <h4 class="text-lg leading-6 group-hover:text-secondary">
+                <h3 class="text-lg leading-6 group-hover:text-secondary">
                   Our invite-only Beta accounts are now live!
-                </h4>
+                </h3>
                 <p>
                   Our invite-only Beta accounts are now live! After a lot of
                   hard work by the whole team, we’re excited to launch our
@@ -359,12 +359,13 @@
             src="./src/img/logo-white.svg"
             alt="logo"
           />
-          <nav>
+          <nav aria-labelledby="social-media-links">
             <ul class="flex gap-5 my-2 lg:my-auto">
               <li>
                 <a
                   class="text-white hover:text-secondary text-xl lg:text-lg"
                   href="#"
+                  aria-label="Facebook profile of Easybank"
                 >
                   <i class="fa-brands fa-square-facebook"></i>
                 </a>
@@ -373,6 +374,7 @@
                 <a
                   class="text-white hover:text-secondary text-xl lg:text-lg"
                   href="#"
+                  aria-label="Youtube account of Easybank"
                 >
                   <i class="fa-brands fa-youtube"></i>
                 </a>
@@ -381,6 +383,7 @@
                 <a
                   class="text-white hover:text-secondary text-xl lg:text-lg"
                   href="#"
+                  aria-label="Twitter profile of Easybank"
                 >
                   <i class="fa-brands fa-twitter"></i>
                 </a>
@@ -389,6 +392,7 @@
                 <a
                   class="text-white hover:text-secondary text-xl lg:text-lg"
                   href="#"
+                  aria-label="Pinterest profile of Easybank"
                 >
                   <i class="fa-brands fa-pinterest"></i>
                 </a>
@@ -397,6 +401,7 @@
                 <a
                   class="text-white hover:text-secondary text-xl lg:text-lg"
                   href="#"
+                  aria-label="Instagram profile of Easybank"
                 >
                   <i class="fa-brands fa-instagram"></i>
                 </a>
@@ -406,7 +411,7 @@
         </div>
         <!-- col 2 -->
         <div class="w-full flex flex-col gap-16 lg:w-1/5 lg:pr-5">
-          <nav>
+          <nav aria-labelledby="footer-nav-1">
             <ul
               class="flex flex-col items-center gap-3 lg:items-start lg:gap-5"
             >
@@ -424,7 +429,7 @@
         </div>
         <!-- col 3 -->
         <div class="w-full flex flex-col gap-16 lg:w-1/5 lg:pr-5">
-          <nav>
+          <nav aria-labelledby="footer-nav-2">
             <ul
               class="flex flex-col items-center gap-3 lg:items-start lg:gap-5"
             >
